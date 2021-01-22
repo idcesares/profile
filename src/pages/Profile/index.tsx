@@ -12,10 +12,12 @@ import './styles.css';
 
 function Profile() {
   const [user, setUser] = useState<Users | null>(null);
+  const userName = 'idcesares'
+  const userMail = 'mailto:isaac.dcesares@gmail.com'
 
   useEffect(() => {
     async function fetchProfileData(): Promise<void> {
-      const { data } = await api.get<Users>('/users/fariasmateuss');
+      const { data } = await api.get<Users>(`/users/${userName}`);
 
       setUser(data);
     }
@@ -32,7 +34,7 @@ function Profile() {
               <div className="hamburger-menu">
                 <div className="center" />
               </div>
-              <a href="mailto:mateus_vinicius15@outlook.com" className="mail">
+              <a href={userMail} className="mail">
                 <HiOutlineMail size={30} />
               </a>
               <div className="main">
@@ -63,7 +65,7 @@ function Profile() {
                 <div className="buttons-wrap">
                   <div className="first-wrap">
                     <a
-                      href="mailto:mateus_vinicius15@outlook.com"
+                      href={userMail}
                       target="blank"
                       className="first"
                     >

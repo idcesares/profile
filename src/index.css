@@ -31,10 +31,10 @@ button {
   --bg: #efefef;
   --front-color: #f0f0f0;
   --bg-card: #ffffff;
-  --bg-card-before-one: #00f2ee;
-  --bg-card-before-two: #4facfe;
-  --circle: #00d8fe;
-  --border: #4facfe;
+  --bg-card-before-one: #4158D0;
+  --bg-card-before-two: #C850C0;
+  --circle: rgba(255, 255, 255, 0.6);
+  --border:#C850C0;
   --border-box: #e1e4e8;
   --link: #0366d6;
   --gray: #586069;

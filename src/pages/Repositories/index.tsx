@@ -11,16 +11,17 @@ import './styles.css';
 
 function Repositories() {
   const [repositories, setRepositories] = useState<Repos[]>([]);
+  const userName = 'idcesares'
 
   useEffect(() => {
-    api.get(`users/fariasmateuss/repos`).then(response => {
+    api.get(`users/${userName}/repos`).then(response => {
       setRepositories(response.data);
     });
   }, []);
 
   return (
     <main>
-      <Header title="Open source projects" emoji="👨‍🚀" returnToProfile />
+      <Header title="My projects" emoji="🚀" returnToProfile />
 
       <article className="wrapper-repositories">
         {repositories.map(repository => (

@@ -3,11 +3,11 @@ import React from 'react';
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillYoutube,
   AiFillMediumSquare,
-  AiFillTwitterSquare,
+  AiFillTwitterSquare
 } from 'react-icons/ai';
 import { SiDevDotTo } from 'react-icons/si';
+import { RiWhatsappFill } from 'react-icons/ri';
 
 import { NavigationItemProps, NavigationItems } from './types';
 
@@ -16,28 +16,28 @@ import './styles.css';
 const socialMedias: NavigationItems = [
   {
     icon: <AiFillGithub />,
-    url: 'https://github.com/fariasmateuss/',
+    url: 'https://github.com/idcesares/',
   },
   {
     icon: <AiFillLinkedin />,
-    url: 'https://www.linkedin.com/in/fariasmateuss/',
+    url: 'https://www.linkedin.com/in/isaacdcesares/',
   },
   {
     icon: <AiFillMediumSquare />,
-    url: 'https://medium.com/@fariasmateuss',
+    url: 'https://medium.com/@idcesares',
   },
   {
     icon: <AiFillTwitterSquare />,
-    url: 'https://twitter.com/fariasmateuss',
+    url: 'https://twitter.com/idcesares',
   },
   {
     icon: <SiDevDotTo />,
-    url: 'https://dev.to/fariasmateuss',
+    url: 'https://dev.to/idcesares',
   },
   {
-    icon: <AiFillYoutube />,
-    url: 'https://www.youtube.com/channel/UC2dD4ZlE8zuMoVGOP3jdB8g',
-  },
+    icon: <RiWhatsappFill />,
+    url: 'https://wa.me/+5521983291513',
+  }
 ];
 
 function SocialMedia() {
