@@ -1,12 +1,6 @@
 # GitHub Profile Concept
 PROJECT: https://idcesares.vercel.app/
 
-<p>
-  <a aria-label="Hosting with Vercel" href="https://idcesares.vercel.app/">
-    <img src="docs/resources/thumbnail.png" align="right" />
-  </a>
-</p>
-
 ## Tech
 
 - [TypeScript](https://github.com/microsoft/TypeScript) - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
