@@ -64,13 +64,9 @@ function Profile() {
 
                 <div className="buttons-wrap">
                   <div className="first-wrap">
-                    <a
-                      href={userMail}
-                      target="blank"
-                      className="first"
-                    >
-                      Contact
-                    </a>
+                    <Link to="/Links" className="first">
+                      Links
+                    </Link>
                   </div>
                   <div className="second-wrap">
                     <Link to="/repositories" className="second">
