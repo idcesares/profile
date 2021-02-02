@@ -15,6 +15,10 @@
         {
             "title":"🔊 Podcast Difusão Sesc: A inteligência artificial e a segurança pessoal de dados",
             "link":"https://youtu.be/O8GTAJufdfc"
+        },
+        {
+            "title":"👨‍💻 Ai Quiz - Um Quiz sobre Inteligência Artificial - Desenvolvido na Imersão React NextJS da Alura",
+            "link":"https://ai-quiz.idcesares.vercel.app/"
         }
     ]
 }
