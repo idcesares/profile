@@ -19,7 +19,7 @@ const socialMedias: NavigationItems = [
     url: 'https://github.com/idcesares/',
   },
   {
-    icon: <AiFillLinkedin />,
+    icon: <AiFillLinkedin />, 
     url: 'https://www.linkedin.com/in/isaacdcesares/',
   },
   {
